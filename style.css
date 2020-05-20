@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'colaborate-regularregular';
+    src: url('font/ColabReg-webfont.eot');
+    src: url('font/ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ColabReg-webfont.woff2') format('woff2'),
+         url('font/ColabReg-webfont.woff') format('woff'),
+         url('font/ColabReg-webfont.ttf') format('truetype'),
+         url('font/ColabReg-webfont.svg#colaborate-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family: colaborate-regularregular, Arial, Serif;
+	margin:0px;
+	text-align:justify;
+}
+
+.conteneurgeneral{
+	display:flex;
+	margin:0px;
+}
+
+.conteneurgauche{
+	background-color:#AFB42B;
+	width:30%;
+	color:#424242;
+}
+.conteneurgauche h2{
+	text-transform: uppercase;
+}
+.conteneurgauche > p{
+	margin: 50px 0 40px 0;
+}
+img{
+	display:block;
+	border-radius:50%;
+	width:220px;
+	margin:auto;
+	border: 2px solid #CDDC39;
+	box-shadow: 0px 0px 10px #C0CA33;
+}
+
+.aside{
+	padding:0 30px;
+	margin: 30px 0 30px 0;
+}
+
+.contact h2{
+	font-size:1.7em;
+	text-align:center;
+	background-color:#424242;
+	color:#AFB42B;
+	padding:5px 0px;
+	margin:0;
+	
+}
+a{
+	text-decoration:none;
+	color:#424242;
+}
+
+.a_propos h2{
+	font-size:1.7em;
+	text-align:center;
+	background-color:#424242;
+	color:#AFB42B;
+	padding:5px 0px;
+}
+#loisirs{
+	margin-top:470px;
+}
+#loisirs h2{
+	font-size:1.7em;
+	text-align:center;
+	background-color:#424242;
+	color:#AFB42B;
+	padding:5px 0px;
+}
+#loisirs .aside {
+	display:flex;
+	justify-content:space-around;
+}
+#loisirs .aside i{
+	border:2px #424242 solid;
+	border-radius:50px;	
+	font-size:40px;
+	padding: 10px;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+	
+.conteneurdroit{
+	padding:0 70px;
+	background-color:#F0F4C3;
+	color:#424242;
+	width:70%;
+	
+}
+.conteneurdroit header{
+	margin: 100px 0 140px 0;
+}
+.conteneurdroit header h1{
+	font-size:3em;
+	font-weight:normal;
+	margin:0px;
+	
+}
+.conteneurdroit header h1 span{
+	color:#AFB42B;
+	font-weight:bold;
+}
+.conteneurdroit header h3{
+	font-size:1.8em;
+	margin: 10px 0 0 0;
+}
+.conteneurdroit header h3 span{
+	border-bottom:2px #AFB42B solid;
+}
+	
+section h2{
+	font-size:1.7em;
+	border-bottom:2px #AFB42B solid;
+	padding-bottom: 10px;
+	text-transform:uppercase;
+}
+section h2 i{
+	margin-right: 20px;	
+	font-size:30px;
+	color:#AFB42B;
+	
+}
+section .information{
+	display:flex;
+	margin: 50px 0;
+}
+section .information .date{
+	width:200px;
+	display:flex;
+}
+.information .date .icone{
+	height:6px;
+	width:6px;
+	border:3px solid #AFB42B;
+	border-radius:50%;
+	padding:2px;
+	margin-right:20px;
+}
+.information .date .icone .point{
+	background:#AFB42B;
+	height:100%;
+	width:100%;
+	margin:auto;
+	border-radius:50%;
+}
+.date i{
+	margin-right:20px;
+	font-weight: bold;
+	font-size: 12px;
+	color:#AFB42B;
+}
+.date p{
+	margin:0px;
+}
+section .information .description{
+	width:600px;
+	
+}
+section .information .description h3{
+	margin:0px;	
+	font-size:1.3em;
+	text-transform:uppercase;
+}
+section .information .description h4{
+	font-weight:normal;
+	margin: 10px 0;
+}
+section .information .description p{
+	margin:0;
+}
+.recommandation h2{
+	font-size:1.7em;
+	border-bottom:2px #AFB42B solid;
+}
+.recommandation h2 i{
+	margin-right: 20px;
+}
+.recommandation .information{
+	margin:0px;
+}
+.recommandation .information .repertoire{
+	padding-right:120px;
+}
+	
+.recommandation .information .repertoire h3{
+	text-transform:uppercase;
+}
+
+
+
