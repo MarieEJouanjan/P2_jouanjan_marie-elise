@@ -10,11 +10,15 @@
     font-style: normal;
 
 }
+*{
+	box-sizing:border-box;
+}
 
 body{
 	font-family: colaborate-regularregular, Arial, Serif;
 	margin:0px;
 	text-align:justify;
+	line-height: 1.3em;
 }
 
 .conteneurgeneral{
@@ -41,7 +45,9 @@ img{
 	border: 2px solid #CDDC39;
 	box-shadow: 0px 0px 10px #C0CA33;
 }
-
+.conteneurgauche header{
+	display:none;
+}
 .aside{
 	padding:0 30px;
 	margin: 30px 0 30px 0;
@@ -69,7 +75,7 @@ a{
 	padding:5px 0px;
 }
 #loisirs{
-	margin-top:470px;
+	margin-top: 400px;
 }
 #loisirs h2{
 	font-size:1.7em;
@@ -84,24 +90,23 @@ a{
 }
 #loisirs .aside i{
 	border:2px #424242 solid;
-	border-radius:50px;	
-	font-size:40px;
-	padding: 10px;
-	height: 50px;
-	width: 50px;
-	text-align: center;
-	line-height: 50px;
+	border-radius: 50%;
+	font-size: 40px;
+padding: 10px;
+height: 70px;
+width: 70px;
+text-align: center;
+line-height: 50px;
 }
 	
 .conteneurdroit{
 	padding:0 70px;
 	background-color:#DCEDC8;
 	color:#424242;
-	width:70%;
-	
+	width:70%;	
 }
 .conteneurdroit header{
-	margin: 100px 0 140px 0;
+	margin: 100px 0 150px 0;
 }
 .conteneurdroit header h1{
 	font-size:3em;
@@ -115,7 +120,7 @@ a{
 }
 .conteneurdroit header h3{
 	font-size:1.8em;
-	margin: 10px 0 0 0;
+	margin: 30px 0 0 0;
 }
 .conteneurdroit header h3 span{
 	border-bottom:2px #7CB342 solid;
@@ -200,4 +205,127 @@ section .information .description p{
 }
 
 
+@media screen and (max-width:600px){
+	body{
+		width:100%;
+		line-height: 1.4em
+	}
+	.conteneurgeneral{
+		display:flex;
+		flex-direction:column;
+		line-height: 1.4em;
+	}
+	.conteneurgauche{
+		width:auto;
+	}
+	.conteneurgauche > p{
+		margin: 50px 0 0 0;
+	}
+	.conteneurgauche header{
+		display:block;
+		text-align:center;
+		padding:20px;
+	}
+	.conteneurgauche header h1{
+		font-size:3.0em;
+		font-weight:normal;
+		margin:0px;
+		line-height:1.3em;
+	}
+	
+	.conteneurgauche header h3{
+		font-size:1.8em;
+		margin: 10px 0 20px 0;
+		line-height: 1.3em;
+	}
+	.conteneurgauche .contact .aside{
+		text-align:center;
+	}
+	
+	#loisirs{
+		margin-top:0;
+	}
+	.conteneurdroit{
+		padding:0 20px;
+		width:auto;
+	}
+	.conteneurdroit header{
+		display:none;
+	}
+	section h2{
+		line-height:1.2em;
+	}
+	section .information{
+		width:auto;
+	}
+	section .information .description{
+		width:auto;
+	}
+	section .information .date {
+		width:100px;
+		margin-right:30px;
+	}
+	.information .date .icone{
+		margin-right:10px;
+			
+	}
+	.date i{
+		margin-right:10px;	
+	}
+	.recommandation .information {
+		display:block;
+		text-align:center;
+	}
+	.recommandation .information .repertoire{
+		padding-right:0px;
+	}
+}
+@media screen and (max-width:992px){
+	body{
+		width:100%;
+		line-height: 1.4em
+	}
+	.conteneurgeneral{
+		display:flex;
+		flex-direction:column;
+		line-height: 1.4em;
+	}
+	.conteneurgauche{
+		width:auto;
+	}
+	.conteneurgauche header{
+		display:block;
+		text-align:center;
+		padding:20px;
+	}
+	.conteneurgauche header h1{
+		font-size:3.0em;
+		font-weight:normal;
+		margin:0px;
+		line-height:1.3em;
+	}
+	
+	.conteneurgauche header h3{
+		font-size:1.8em;
+		margin: 10px 0 20px 0;
+		line-height: 1.3em;
+	}
+	.conteneurgauche .contact .aside{
+		text-align:center;
+	}
+	#loisirs{
+		margin-top:0;
+	}
+	
+	.conteneurdroit{
+		padding:0 20px;
+		width:auto;
+	}
+	.conteneurdroit header{
+		display:none;
+	}
+}
+@media screen and (max-width:992px){
+	width:100%;
+}
 
